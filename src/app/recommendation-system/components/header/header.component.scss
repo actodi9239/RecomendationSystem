@@ -1,0 +1,60 @@
+.upload{
+    text-align: right;
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+  
+    button {
+      font-size: 24px;
+    }
+  
+    .navigation {
+      padding-right: 1.25rem;
+      font-size: 2.5rem;
+      text-decoration: none;
+  
+      i {
+        display: block;
+      }
+    }
+  
+    .logo {
+      padding: 0 1.25rem;
+      font-size: 1.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    background-color: #004085;
+  
+    .dropdown-item {
+      color: #ffffff;
+    }
+  
+    .dropdown-item:hover {
+      color: #004085;
+      background-color: #cce5ff;
+    }
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    background-color: #004085;
+    border-color: #004085;
+  }
+  
