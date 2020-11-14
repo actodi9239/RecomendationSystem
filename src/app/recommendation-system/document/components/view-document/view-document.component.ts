@@ -105,6 +105,7 @@ export class ViewDocumentComponent implements OnInit {
       }
     ];
   }
+  
 
   viewDocument(e) {
     window.open(e.rowData.attributes.link);
